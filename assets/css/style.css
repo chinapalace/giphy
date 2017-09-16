@@ -1,0 +1,27 @@
+body {
+	background-color: transparent;
+}
+.jumbotron	{
+	padding-top: 12rem;
+	padding-bottom: 6rem;
+	background-color: #fff;
+}
+
+.gallery	{
+	background-color: #f7f7f7;
+	padding-top: 3rem;
+	min-height: 100rem;
+
+}
+
+.thumbnail	{
+	height: 40rem;
+}
+
+
+.thumbnail	{
+
+	display: table-cell;
+	vertical-align: bottom;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Giphy App</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+
+
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand">Add People</a>
+				</div>
+
+				<form class ="navbar-form navbar-right" id="form">
+					<div class = "form-group">                  
+						<input type="text" placeholder="Name" class="form-control" id="searchTerm">        
+					</div>
+					         
+					<button class="btn btn-primary" id="search">Search</button>
+				</form>
+			</div>
+		</nav>
+
+		<header class="jumbotron text-center">
+			<div class="container">
+				<h1 class="jumbotron-heading">Gif Library</h1>
+				<p class="lead text-muted">Browse gifs by name and add new people.
+				<div class="row">
+				<div class="btn-group" id="buttons">
+				</div>
+			</div>
+			</div>
+		</header>
+		
+		<div class="gallery">
+			<div class="container">
+				<div class="row" id="gifs">
+					<div class="col-md-4">
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<!-- Javascript -->
+			<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<script src="assets/javascript/logic.js"></script>
+		
+
+	</body>
+
+</html>
